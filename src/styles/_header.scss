@@ -1,0 +1,84 @@
+.header__wrap {
+  float: left;
+}
+
+.header__inner {
+  // width: 316px;
+  // height: 250px;
+  border-right: 1px solid #e3e3e3;
+
+  h1 {
+    font-family: "SebangGothic";
+    color: #e16120;
+    font-size: 40px;
+    padding: 138px 74px 26px 74px;
+    font-weight: bold;
+    border-bottom: 1px solid #e3e3e3;
+    text-align: center;
+
+    .header__box {
+      display: block;
+      width: 120px;
+      height: 8px;
+      background: #e3e3e3;
+      margin-bottom: 27px;
+      margin-top: 32px;
+      margin-left: 22px;
+    }
+  }
+}
+
+.header__mune {
+  ul {
+    // width: 257px;
+    padding: 27px 31px 567px 31px;
+
+    .header__icon {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+
+      img {
+        width: 52px;
+        height: 52px;
+      }
+    }
+
+    li {
+      width: 257px;
+      font-size: 30px;
+      font-weight: bold;
+    }
+    li:first-child {
+      background-color: #64a70a;
+      color: #fff;
+      font-size: 24px;
+      font-weight: 700;
+      border-radius: 50px;
+      width: 257px;
+      height: 62px;
+    }
+  }
+}
+
+.header__mune ul li:nth-child(2) {
+  margin-top: 80px;
+}
+.header__mune ul li:nth-child(3) {
+  margin-top: 50px;
+}
+.header__mune ul li:nth-child(4) {
+  margin-top: 50px;
+}
+.header__mune ul li:nth-child(5) {
+  margin-top: 629px;
+  height: 240px;
+  padding: 51px 87px 155px 87px;
+  border-top: 1px solid #e3e3e3;
+}
+
+/* card 반응형 */
+@media (max-width: 1200px) {
+  .header__mune {
+  }
+}

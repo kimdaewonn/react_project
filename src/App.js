@@ -3,6 +3,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import { HeaderCont } from "./components";
 import { MainConts } from "./components";
+import { RankingConts } from "./components";
+import { FooterCont } from "./components";
 
 const App = () => {
   return (
@@ -11,6 +13,8 @@ const App = () => {
       <Routes>
         <Route path="/" element={<MainConts />}></Route>
       </Routes>
+      <RankingConts />
+      <FooterCont />
     </BrowserRouter>
   );
 };

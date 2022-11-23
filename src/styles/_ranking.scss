@@ -1,0 +1,115 @@
+.ranking__wrap {
+  display: flex;
+
+  .ranking__inner {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 45px;
+    border-left: solid 1px #e3e3e3;
+
+    .ranking__icon__box {
+      display: flex;
+      justify-content: center;
+      border-bottom: 1px solid #e3e3e3;
+
+      .ranking__icon {
+        width: 587px;
+        text-align: center;
+        display: flex;
+        margin: 0 auto;
+      }
+    }
+
+    .search {
+      //   width: 80%;
+      padding: 10px 30px;
+      position: absolute;
+      top: 135px;
+
+      .glass {
+        left: 43px;
+        top: 22px;
+        color: #64a70a;
+        position: absolute;
+        font-size: 40px;
+
+        .iocn {
+          vertical-align: -7px;
+          color: #64a70a;
+          font-size: 30px;
+        }
+      }
+
+      input {
+        display: flex;
+        align-items: center;
+        border-radius: 50px;
+        width: 700px;
+        height: 67px;
+        border: 1px solid #e3e3e3;
+        padding: 0 60px;
+        color: #eee;
+      }
+    }
+  }
+}
+
+.ranking__main {
+  padding: 50px 50px;
+
+  span {
+    color: #999999;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  h1 {
+    font-size: 70px;
+    font-weight: bolder;
+    margin-top: 27px;
+  }
+
+  .ranking__desc {
+    // width: 1477px;
+    margin-top: 60px;
+
+    .ranking__table {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      position: relative;
+
+      ul {
+        li {
+          width: 300px;
+
+          &::before {
+            content: "";
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            font-size: 5vw;
+            color: #fff;
+            background: #000;
+            border-radius: 5px;
+          }
+
+          h2 {
+            margin-top: 20px;
+            font-size: 25px;
+            font-weight: bold;
+          }
+
+          span {
+            img {
+              margin-bottom: 30px;
+              margin-top: 14px;
+              width: 144px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
