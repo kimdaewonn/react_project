@@ -1,19 +1,23 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Main from "./components/MainConts";
+import Ranking from "./components/RankingConts";
+import Youtube from "./components/YoutubeConts";
+import Recipes from "./components/RecipesConts";
 
-import { HeaderCont } from "./components";
-import { MainConts } from "./components";
-import { RankingConts } from "./components";
-import { FooterCont } from "./components";
+import { HeaderCont, SearchBar, FooterCont } from "./components";
 
 const App = () => {
   return (
     <BrowserRouter>
       <HeaderCont />
+      <SearchBar />
       <Routes>
-        <Route path="/" element={<MainConts />}></Route>
+        <Route path="/" element={<Main />}></Route>
+        <Route path="/ranking" element={<Ranking />}></Route>
+        <Route path="/youtube" element={<Youtube />}></Route>
+        <Route path="/recipes" element={<Recipes />}></Route>
       </Routes>
-      <RankingConts />
       <FooterCont />
     </BrowserRouter>
   );

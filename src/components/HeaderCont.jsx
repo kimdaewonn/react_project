@@ -16,9 +16,15 @@ const HeaderCont = () => {
               <img src={Orange} alt="라임" />
               오늘의 레시피
             </li>
-            <li>CLASSIFICATION</li>
-            <li>RANKING</li>
-            <li>YOUTUBE</li>
+            <li>
+              <button>CLASSIFICATION</button>
+            </li>
+            <li>
+              <button>RANKING</button>
+            </li>
+            <li>
+              <button>YOUTUBE</button>
+            </li>
           </ul>
         </div>
       </article>
