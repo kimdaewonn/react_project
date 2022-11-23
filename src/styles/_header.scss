@@ -4,16 +4,14 @@
 
 .header__inner {
   // width: 316px;
-  // height: 250px;
-  border-right: 1px solid #e3e3e3;
 
   h1 {
-    font-family: "SebangGothic";
     color: #e16120;
     font-size: 40px;
     padding: 138px 74px 26px 74px;
     font-weight: bold;
     border-bottom: 1px solid #e3e3e3;
+
     text-align: center;
 
     .header__box {
@@ -29,9 +27,10 @@
 }
 
 .header__mune {
+  height: 100%;
   ul {
-    // width: 257px;
-    padding: 27px 31px 567px 31px;
+    // padding: 27px 31px 567px 31px;
+    padding: 0 31px 0;
 
     .header__icon {
       display: flex;
@@ -48,6 +47,21 @@
       width: 257px;
       font-size: 30px;
       font-weight: bold;
+      margin-top: 27px;
+
+      button {
+        display: block;
+        margin-bottom: 10px;
+        cursor: pointer;
+        width: 100%;
+        text-align: left;
+        padding: 8px;
+        border-radius: 50px;
+
+        // &:active {
+        //   background: #eee;
+        // }
+      }
     }
     li:first-child {
       background-color: #64a70a;
@@ -75,10 +89,4 @@
   height: 240px;
   padding: 51px 87px 155px 87px;
   border-top: 1px solid #e3e3e3;
-}
-
-/* card 반응형 */
-@media (max-width: 1200px) {
-  .header__mune {
-  }
 }

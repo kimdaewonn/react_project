@@ -1,0 +1,175 @@
+.recipes__wrap {
+  display: flex;
+  .recipes__inner {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    // padding-bottom: 45px;
+    border-left: solid 1px #e3e3e3;
+    display: flex;
+    justify-content: center;
+    .recipes__box {
+      text-align: center;
+      padding-top: 123px;
+      padding-bottom: 73px;
+      margin: 0 auto;
+      img {
+        width: 100%;
+      }
+      h2 {
+        margin-top: 95px;
+        font-size: 50px;
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 30px;
+        margin-top: 95px;
+        margin-bottom: 70px;
+      }
+      p {
+        text-align: center;
+        padding-bottom: 176px;
+        font-size: 35px;
+        font-weight: light;
+        // border-bottom: 1px dashed #999999;
+        position: relative;
+
+        &::before {
+          content: "";
+          position: absolute;
+          top: 250px;
+          left: -30px;
+          width: 1200px;
+          height: 1px;
+          background: #999;
+        }
+      }
+      .ong {
+        span {
+          width: 100px;
+          height: 100px;
+          display: inline-block;
+          padding: 17px;
+          background: #64a70a;
+          border-radius: 50%;
+          padding-top: 32px;
+          text-align: center;
+          color: #fff;
+          font-size: 25px;
+          font-weight: bold;
+          margin-bottom: 73px;
+          &:nth-child(1) {
+            margin-right: 150px;
+          }
+          &:nth-child(2) {
+            margin-right: 150px;
+          }
+        }
+      }
+      .chong {
+        .box_row1 {
+          display: flex;
+          margin-bottom: 15px;
+          .box1 {
+            width: 477px;
+            height: 70px;
+            display: flex;
+            background: #eee;
+            border-radius: 30px;
+            justify-content: space-between;
+            padding-top: 20px;
+            margin-right: 67px;
+            div {
+              &:nth-child(1) {
+                padding-left: 20px;
+              }
+              &:nth-child(2) {
+                color: #999;
+                padding-right: 20px;
+              }
+            }
+          }
+          .box2 {
+            width: 477px;
+            height: 70px;
+            display: flex;
+            background: #eee;
+            border-radius: 30px;
+            justify-content: space-between;
+            padding-top: 20px;
+            div {
+              &:nth-child(1) {
+                padding-left: 20px;
+              }
+              &:nth-child(2) {
+                color: #999;
+                padding-right: 20px;
+              }
+            }
+          }
+        }
+        .box_row2 {
+          display: flex;
+          margin-bottom: 15px;
+          .box3 {
+            width: 477px;
+            height: 70px;
+            display: flex;
+            background: #eee;
+            border-radius: 30px;
+            justify-content: space-between;
+            margin-right: 67px;
+            padding-top: 20px;
+            div {
+              &:nth-child(1) {
+                padding-left: 20px;
+              }
+              &:nth-child(2) {
+                color: #999;
+                padding-right: 20px;
+              }
+            }
+          }
+          .box4 {
+            width: 477px;
+            height: 70px;
+            display: flex;
+            background: #eee;
+            border-radius: 30px;
+            justify-content: space-between;
+            padding-top: 20px;
+            div {
+              &:nth-child(1) {
+                padding-left: 20px;
+              }
+              &:nth-child(2) {
+                color: #999;
+                padding-right: 20px;
+              }
+            }
+          }
+        }
+        .box_row3 {
+          display: flex;
+          .box5 {
+            width: 477px;
+            height: 70px;
+            display: flex;
+            background: #eee;
+            border-radius: 30px;
+            justify-content: space-between;
+            padding-top: 20px;
+            div {
+              &:nth-child(1) {
+                padding-left: 20px;
+              }
+              &:nth-child(2) {
+                color: #999;
+                padding-right: 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

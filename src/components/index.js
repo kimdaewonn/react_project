@@ -5,4 +5,5 @@ export { default as MainConts } from "./MainConts";
 export { default as RankingConts } from "./RankingConts";
 export { default as YoutubeConts } from "./YoutubeConts";
 export { default as RecipesConts } from "./RecipesConts";
+export { default as ClassCont } from "./ClassCont";
 export { default as Category } from "./Category";
