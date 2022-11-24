@@ -1,5 +1,19 @@
-// .main__slider {
-//   h2 {
-//     text-align: center;
-//   }
-// }
+.slider__wrap {
+  display: flex;
+  .slider__inner {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    border-left: solid 1px #e3e3e3;
+    display: flex;
+    justify-content: center;
+    .slider__box {
+      h2 {
+        font-weight: 40;
+        font-weight: bold;
+        margin-top: 249px;
+        margin-bottom: 113px;
+      }
+    }
+  }
+}

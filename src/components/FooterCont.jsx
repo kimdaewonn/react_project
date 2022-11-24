@@ -1,7 +1,7 @@
 import React from "react";
 
-import Github from "./assets/img/github-icon.png";
-import Twitter from "./assets/img/twitter-icon.png";
+import Github from "../assets/img/github-icon.png";
+import Twitter from "../assets/img/twitter-icon.png";
 
 const FooterCont = () => {
   return (

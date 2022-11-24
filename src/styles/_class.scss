@@ -4,29 +4,39 @@
     width: 100%;
     margin: 0 auto;
     position: relative;
-    // padding-bottom: 45px;
     border-left: solid 1px #e3e3e3;
     display: flex;
     justify-content: space-around;
     .class__box {
       .class__bar {
         margin-left: 60px;
+        margin-right: 60px;
+        background: #f9f9f9;
         .bar-t {
           display: flex;
-          margin: 50px 0px;
+          margin-bottom: 20px;
+          margin-top: 40px;
+          padding-top: 30px;
+          margin-left: 50px;
+
+          justify-content: center;
           .icon_cont {
-            margin-right: 80px;
+            text-align: center;
+
+            margin-right: 70px;
             &:nth-child(3) {
               border: 1px solid #fc7405;
               padding: 5px 10px 0 5px;
+              text-align: center;
             }
             img {
-              width: 74px;
+              width: 60px;
             }
 
             div {
-              margin-left: 18px;
+              margin-left: 10px;
               margin-top: 21px;
+              white-space: nowrap;
             }
           }
         }
@@ -34,11 +44,14 @@
         .bar-b {
           display: flex;
           margin: 50px 0px;
+          margin-left: 50px;
+
           .icon_cont {
+            text-align: center;
+
             margin-right: 80px;
             img {
-              width: 74px;
-
+              width: 60px;
             }
 
             div {
@@ -51,12 +64,13 @@
     }
     h2 {
       margin-bottom: 36px;
-      margin-left: 10px;
+      margin-left: 5px;
     }
     .mando__inner {
       .man-t {
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
+
         img {
           &:nth-child(1) {
             width: 468px;
@@ -76,7 +90,7 @@
         }
       }
       .man-b {
-        justify-content: space-around;
+        justify-content: center;
         display: flex;
         img {
           &:nth-child(1) {

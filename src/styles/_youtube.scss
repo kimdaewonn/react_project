@@ -1,0 +1,79 @@
+.youtube__wrap {
+  display: flex;
+
+  .youtube__inner {
+    width: 1585px;
+    padding: 0 76px;
+
+    border-left: 1px solid #e0e0e0;
+
+    .youtube__box1 {
+      width: 100%;
+
+      h2 {
+        padding: 36px 0 40px 0;
+        font-size: 40px;
+
+        span {
+          color: #64a70a;
+          font-weight: bold;
+        }
+      }
+
+      .youtube__icon {
+        ul {
+          display: flex;
+          justify-content: space-around;
+          cursor: pointer;
+
+          li {
+            width: 150px;
+          }
+        }
+      }
+    }
+
+    .youtube__box2 {
+      margin-top: 61px;
+
+      h3 {
+        margin-bottom: 55px;
+        font-size: 40px;
+
+        span {
+          color: #64a70a;
+          font-weight: bold;
+        }
+      }
+
+      .youtube__page {
+        margin-bottom: 69px;
+        cursor: pointer;
+
+        ul {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+
+          li {
+            img {
+              width: 350px;
+              height: 207px;
+              background: url();
+            }
+
+            h4 {
+              font-size: 20px;
+              // 1줄 효과
+              width: 350px;
+              white-space: nowrap;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              padding: 11px 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}

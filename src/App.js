@@ -14,7 +14,7 @@ const App = () => {
       <HeaderCont />
       <SearchBar />
       <Routes>
-        <Route path="/" element={<Main />}></Route>
+        <Route path="/main" element={<Main />}></Route>
         <Route path="/ranking" element={<Ranking />}></Route>
         <Route path="/youtube" element={<Youtube />}></Route>
         <Route path="/recipes" element={<Recipes />}></Route>

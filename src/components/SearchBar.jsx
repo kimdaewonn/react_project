@@ -2,7 +2,7 @@ import React from "react";
 
 import { RiSearchLine } from "react-icons/ri";
 
-import lime from "./assets/img/lime.png";
+import lime from "../assets/img/lime.png";
 
 const SearchBar = () => {
   return (

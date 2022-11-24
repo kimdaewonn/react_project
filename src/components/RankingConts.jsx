@@ -1,31 +1,95 @@
 import React from "react";
 
-import { RiSearchLine } from "react-icons/ri";
+import star from "../assets/img/star.png";
 
-import lime from "./assets/img/lime.png";
-
-const SearchBar = () => {
+const RankingConts = () => {
   return (
-    <section className="search__wrap">
-      <div className="search__inner">
-        <article className="search__icon__box">
-          <img className="search__icon" src={lime} alt="라임" />
-          <div className="search">
-            <label className="glass" htmlFor="searchInput">
-              <RiSearchLine />
-            </label>
-            <input
-              type="text"
-              id="searchInput"
-              className="input__search"
-              placeholder="검색하세요!"
-              title="검색"
-            />
+    <section className="ranking__wrap">
+      <div className="ranking__inner">
+        <article className="ranking__main">
+          <span>EXPERIENCE THE BEST CHOICE</span>
+          <h1>BEST RECIPES</h1>
+          <div className="ranking__desc">
+            <div className="ranking__table">
+              <ul>
+                <li>
+                  <img src="/assets/Rectangle01.png" alt="음식사진" />
+                  <h2>Perfect Pizza Crust</h2>
+                  <span>
+                    <img src={star} alt="별 아이콘" />
+                  </span>
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <img src="/assets/Rectangle02.png" alt="음식사진" />
+                  <h2>Classic Fried Chiken</h2>
+                  <span>
+                    <img src={star} alt="별 아이콘" />
+                  </span>
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <img src="/assets/Rectangle03.png" alt="음식사진" />
+                  <h2>The Best Hamburger</h2>
+                  <span>
+                    <img src={star} alt="별 아이콘" />
+                  </span>
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <img src="/assets/Rectangle04.png" alt="음식사진" />
+                  <h2>Tiktok Ramen</h2>
+                  <span>
+                    <img src={star} alt="별 아이콘" />
+                  </span>
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <img src="/assets/Rectangle05.png" alt="음식사진" />
+                  <h2>Perfect Pizza Crust</h2>
+                  <span>
+                    <img src={star} alt="별 아이콘" />
+                  </span>
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <img src="/assets/Rectangle06.png" alt="음식사진" />
+                  <h2>Classic Fried Chiken</h2>
+                  <span>
+                    <img src={star} alt="별 아이콘" />
+                  </span>
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <img src="/assets/Rectangle07.png" alt="음식사진" />
+                  <h2>The Best Hamburger</h2>
+                  <span>
+                    <img src={star} alt="별 아이콘" />
+                  </span>
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <img src="/assets/Rectangle01.png" alt="음식사진" />
+                  <h2>Tiktok Ramen</h2>
+                  <span>
+                    <img src={star} alt="별 아이콘" />
+                  </span>
+                </li>
+              </ul>
+            </div>
           </div>
         </article>
       </div>
+      <div className="footer__wrap"></div>
     </section>
   );
 };
 
-export default SearchBar;
+export default RankingConts;

@@ -1,5 +1,5 @@
 import React from "react";
-import noodles from "./assets/img/noodles.png";
+import noodles from "../assets/img/noodles.png";
 
 const RecipesConts = () => {
   return (
