@@ -1,7 +1,19 @@
 import React from "react";
 import friedegg from "./assets/img/fried-egg.png";
 import hotsoup from "./assets/img/hot-soup.png";
+import donut from "./assets/img/donut.png";
 import oden from "./assets/img/oden.png";
+import bob from "./assets/img/bob.png";
+import sandwichi from "./assets/img/sandwichi.png";
+import salad from "./assets/img/salad.png";
+import jungol from "./assets/img/jungol.png";
+import kimchi from "./assets/img/kimchi.png";
+import steak from "./assets/img/steak.png";
+import ting from "./assets/img/ting.png";
+import drink from "./assets/img/drink.png";
+import fish from "./assets/img/fish.png";
+import tray from "./assets/img/tray.png";
+
 import mando1 from "./assets/img/mando1.png";
 import mando2 from "./assets/img/mando2.png";
 import mando3 from "./assets/img/mando3.png";
@@ -30,50 +42,50 @@ const ClassCont = () => {
                 <div>면/만두</div>
               </div>
               <div className="icon_cont">
-                <img src={hotsoup} alt="국/탕" />
-                <div>국/탕</div>
+                <img src={donut} alt="디저트" />
+                <div>디저트</div>
               </div>
               <div className="icon_cont">
-                <img src={hotsoup} alt="국/탕" />
-                <div>국/탕</div>
+                <img src={bob} alt="밥/죽/떡" />
+                <div>밥/죽/떡</div>
               </div>
               <div className="icon_cont">
-                <img src={hotsoup} alt="국/탕" />
-                <div>국/탕</div>
+                <img src={kimchi} alt="김치/젓갈류" />
+                <div>김치/젓갈류</div>
               </div>
               <div className="icon_cont">
-                <img src={hotsoup} alt="국/탕" />
-                <div>국/탕</div>
+                <img src={sandwichi} alt="토스트/샌드위치" />
+                <div>토스트/샌드위치</div>
               </div>
               <div className="icon_cont">
-                <img src={hotsoup} alt="국/탕" />
-                <div>국/탕</div>
+                <img src={jungol} alt="찌개/전골" />
+                <div>찌개/전골</div>
               </div>
               <div className="icon_cont">
-                <img src={hotsoup} alt="국/탕" />
-                <div>국/탕</div>
+                <img src={salad} alt="샐러드" />
+                <div>샐러드</div>
               </div>
             </div>
             <div className="bar-b">
               <div className="icon_cont">
-                <img src={friedegg} alt="반찬" />
-                <div>반찬</div>
+                <img src={steak} alt="양식" />
+                <div>양식</div>
               </div>
               <div className="icon_cont">
-                <img src={friedegg} alt="반찬" />
-                <div>반찬</div>
+                <img src={ting} alt="튀김" />
+                <div>튀김</div>
               </div>
               <div className="icon_cont">
-                <img src={friedegg} alt="반찬" />
-                <div>반찬</div>
+                <img src={drink} alt="차/음료" />
+                <div>차/음료</div>
               </div>
               <div className="icon_cont">
-                <img src={friedegg} alt="반찬" />
-                <div>반찬</div>
+                <img src={fish} alt="고기/생선" />
+                <div>고기/생선</div>
               </div>
               <div className="icon_cont">
-                <img src={friedegg} alt="반찬" />
-                <div>반찬</div>
+                <img src={tray} alt="기타" />
+                <div>기타</div>
               </div>
             </div>
           </div>

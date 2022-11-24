@@ -21,6 +21,7 @@
               padding: 5px 10px 0 5px;
             }
             img {
+              width: 74px;
             }
 
             div {
@@ -36,6 +37,8 @@
           .icon_cont {
             margin-right: 80px;
             img {
+              width: 74px;
+
             }
 
             div {
@@ -48,11 +51,12 @@
     }
     h2 {
       margin-bottom: 36px;
+      margin-left: 10px;
     }
     .mando__inner {
       .man-t {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         img {
           &:nth-child(1) {
             width: 468px;
@@ -72,7 +76,7 @@
         }
       }
       .man-b {
-        justify-content: space-between;
+        justify-content: space-around;
         display: flex;
         img {
           &:nth-child(1) {
