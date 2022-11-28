@@ -2,35 +2,27 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer id="footer">
-      <div className="footer__inner">
-        <div>
-          <h3>email</h3>
-          <a href="eodnjs9605@gmail.com">eodnjs9605@gmail.com</a>
+    <section className="footer__wrap">
+      <article className="footer__inner">
+        <div className="footer__left">
+          <div className="header__more">
+            <span className="header__box"></span>
+            <h2>MORE</h2>
+          </div>
         </div>
-        <div>
-          <h3>kakao</h3>
-          <a href="/">kimaewonn</a>
+
+        <div className="footer__right">
+          <div className="footer__icon">
+            <img src="../assets/github-icon.png" alt="github" />
+            <img src="../assets/twitter-icon.png" alt="twitter" />
+            <div className="desc">
+              © RECIPES VIDEOS AND PHOTOS <br />
+              COPYRIGHT 2022.
+            </div>
+          </div>
         </div>
-        <div>
-          <h3>social</h3>
-          <ul>
-            <li>
-              <a href="/">youtube</a>
-            </li>
-            <li>
-              <a href="/">instargram</a>
-            </li>
-            <li>
-              <a href="/">github</a>
-            </li>
-            <li>
-              <a href="/">blog</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </footer>
+      </article>
+    </section>
   );
 };
 

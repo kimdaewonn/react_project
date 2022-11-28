@@ -6,11 +6,7 @@ const SearchBar = () => {
     <section className="search__wrap">
       <div className="search__inner">
         <article className="search__icon__box">
-          <img
-            className="search__icon"
-            src="../assets/img/lime.png"
-            alt="라임"
-          />
+          <img className="search__icon" src="../assets/lime.png" alt="라임" />
           <div className="search">
             <label className="glass" htmlFor="searchInput">
               <RiSearchLine />

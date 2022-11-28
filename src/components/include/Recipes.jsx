@@ -5,7 +5,7 @@ const Recipes = () => {
     <section className="recipes__wrap">
       <div className="recipes__inner">
         <div className="recipes__box">
-          <img src="../assets/img/noodles.png" alt="국수" />
+          <img src="../assets/noodles.png" alt="국수" />
           <h2>콩국수가 싫다면 잣국수</h2>
           <p>
             시원한 여름국수요리!콩국수의 콩비린내 때문에 싫어하는 분들도 있죠?!
