@@ -1,26 +1,19 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Main from "./components/MainConts";
-import Ranking from "./components/RankingConts";
-import Youtube from "./components/YoutubeConts";
-import Recipes from "./components/RecipesConts";
-import Class from "./components/ClassCont";
-
-import { HeaderCont, SearchBar, FooterCont } from "./components";
+import Main from "./components/pages/Main";
+import Ranking from "./components/pages/Ranking";
+import Youtube from "./components/pages/Youtube";
+import Classfication from "./components/pages/Classfication";
 
 const App = () => {
   return (
     <BrowserRouter>
-      <HeaderCont />
-      <SearchBar />
       <Routes>
-        <Route path="/main" element={<Main />}></Route>
+        <Route path="/" element={<Main />}></Route>
         <Route path="/ranking" element={<Ranking />}></Route>
         <Route path="/youtube" element={<Youtube />}></Route>
-        <Route path="/recipes" element={<Recipes />}></Route>
-        <Route path="/class" element={<Class />}></Route>
+        <Route path="/class" element={<Classfication />}></Route>
       </Routes>
-      <FooterCont />
     </BrowserRouter>
   );
 };
