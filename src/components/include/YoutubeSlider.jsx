@@ -18,22 +18,22 @@ const YoutubeConts = () => {
           <div className="youtube__icon">
             <ul>
               <li>
-                <img src="/assets/youtube01.png" alt="이미지1" />
+                <img src="../assets/youtube01.png" alt="이미지1" />
               </li>
               <li>
-                <img src="/assets/youtube02.png" alt="이미지2" />
+                <img src="../assets/youtube02.png" alt="이미지2" />
               </li>
               <li>
-                <img src="/assets/youtube03.png" alt="이미지3" />
+                <img src="../assets/youtube03.png" alt="이미지3" />
               </li>
               <li>
-                <img src="/assets/youtube04.png" alt="이미지4" />
+                <img src="../assets/youtube04.png" alt="이미지4" />
               </li>
               <li>
-                <img src="/assets/youtube05.png" alt="이미지5" />
+                <img src="../assets/youtube05.png" alt="이미지5" />
               </li>
               <li>
-                <img src="/assets/youtube06.png" alt="이미지6" />
+                <img src="../assets/youtube06.png" alt="이미지6" />
               </li>
             </ul>
             <button className="youtube__left"></button>

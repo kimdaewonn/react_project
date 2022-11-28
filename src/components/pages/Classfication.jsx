@@ -3,7 +3,7 @@ import Header from "../layout/Header";
 import Contents from "../layout/Contents";
 import SearchBar from "../layout/SearchBar";
 import Footer from "../layout/Footer";
-import MainCont from "../include/MainCont";
+import ClassCont from "../include/ClassCont";
 
 const Classfication = () => {
   return (
@@ -11,7 +11,7 @@ const Classfication = () => {
       <Header />
       <SearchBar />
       <Contents>
-        <MainCont />
+        <ClassCont />
       </Contents>
       <Footer />
     </>

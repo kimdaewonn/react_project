@@ -3,7 +3,7 @@ import Header from "../layout/Header";
 import Contents from "../layout/Contents";
 import SearchBar from "../layout/SearchBar";
 import Footer from "../layout/Footer";
-import MainCont from "../include/MainCont";
+import YoutubeSlider from "../include/YoutubeSlider";
 
 const Youtube = () => {
   return (
@@ -11,7 +11,7 @@ const Youtube = () => {
       <Header />
       <SearchBar />
       <Contents>
-        <MainCont />
+        <YoutubeSlider />
       </Contents>
       <Footer />
     </>
