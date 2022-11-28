@@ -1,13 +1,16 @@
 import React from "react";
 import { RiSearchLine } from "react-icons/ri";
-import lime from "../assets/img/lime.png";
 
 const SearchBar = () => {
   return (
     <section className="search__wrap">
       <div className="search__inner">
         <article className="search__icon__box">
-          <img className="search__icon" src={lime} alt="라임" />
+          <img
+            className="search__icon"
+            src="../assets/img/lime.png"
+            alt="라임"
+          />
           <div className="search">
             <label className="glass" htmlFor="searchInput">
               <RiSearchLine />

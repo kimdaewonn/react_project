@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Orange from "../assets/img/orange-one.png";
 
 const Header = () => {
   return (
@@ -13,7 +12,7 @@ const Header = () => {
         <div class="header__mune">
           <ul>
             <li className="header__icon">
-              <img src={Orange} alt="라임" />
+              <img src="../assets/img/orange-one.png" alt="라임" />
               오늘의 레시피
             </li>
             {/* <li>
