@@ -1,10 +1,9 @@
 import React from "react";
-import Contents from "../layout/Contents";
 import Header from "../layout/Header";
-import Footer from "../layout/Footer";
+import Contents from "../layout/Contents";
 import SearchBar from "../layout/SearchBar";
-
-import YoutubeSlider from "../include/YoutubeSlider";
+import Footer from "../layout/Footer";
+import MainCont from "../include/MainCont";
 
 const Youtube = () => {
   return (
@@ -12,7 +11,7 @@ const Youtube = () => {
       <Header />
       <SearchBar />
       <Contents>
-        <YoutubeSlider />
+        <MainCont />
       </Contents>
       <Footer />
     </>

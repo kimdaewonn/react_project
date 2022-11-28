@@ -1,15 +1,18 @@
 import React from "react";
-import Contents from "../layout/Contents";
 import Header from "../layout/Header";
-import Footer from "../layout/Footer";
+import Contents from "../layout/Contents";
 import SearchBar from "../layout/SearchBar";
+import Footer from "../layout/Footer";
+import MainCont from "../include/MainCont";
 
 const Classfication = () => {
   return (
     <>
       <Header />
       <SearchBar />
-      <Contents></Contents>
+      <Contents>
+        <MainCont />
+      </Contents>
       <Footer />
     </>
   );
