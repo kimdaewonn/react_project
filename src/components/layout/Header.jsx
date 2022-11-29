@@ -9,7 +9,7 @@ const Header = () => {
           RECIPES
           <span className="header__box"></span>
         </h1>
-        <div class="header__mune">
+        <div className="header__mune">
           <ul>
             <li className="header__icon">
               <img src="../assets/orange-one.png" alt="오렌지" />

@@ -12,7 +12,11 @@ import { Autoplay, FreeMode, Pagination } from "swiper";
 function UnsplashRan({ random }) {
   return (
     <li>
-      <a href={`https://yummly2.p.rapidapi.com/categories/list/${random.id}`}>
+      <a
+        href={
+          "https://raw.githubusercontent.com/kimdaewonn/react_project/main/src/Utils/main.json"
+        }
+      >
         <img src={random.searches} alt={random.searches} />
       </a>
     </li>
